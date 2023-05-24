@@ -19,7 +19,7 @@ vim.cmd [[
     Plug 'nvim-orgmode/orgmode'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'preservim/vim-pencil'
-	Plug 'nvim-orgmode/orgmode'
+    
 ]]
 
 vim.fn['plug#end']()
