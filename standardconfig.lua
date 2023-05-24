@@ -1,7 +1,7 @@
 -- Set runtimepath and packpath
 vim.o.runtimepath = vim.o.runtimepath .. ',~/.config/nvim/lua'
 vim.o.packpath = vim.o.runtimepath
-vim.o.compatible = false 
+
 -- Load Vim-Plug
 vim.fn['plug#begin'](vim.fn.stdpath('data') .. '/plugged')
 
@@ -13,12 +13,10 @@ vim.cmd [[
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-lualine/lualine.nvim'
-    Plug 'junegunn/goyo.vim'
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
     Plug 'nvim-orgmode/orgmode'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-    Plug 'preservim/vim-pencil'
 	Plug 'nvim-orgmode/orgmode'
 ]]
 
